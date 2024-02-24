@@ -1,2 +1,2 @@
-# Data Structures and Algorithm challenges
+# Data Structures and Algorithm Challenges
 Collection of Data Structures and Algorithm Challenges
