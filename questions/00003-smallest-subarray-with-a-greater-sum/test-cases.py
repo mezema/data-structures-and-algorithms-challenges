@@ -11,5 +11,12 @@ class TestSmallestSubarraySum(unittest.TestCase):
         self.assertEqual(smallest_subarray_sum(10, [1, 2, 3, 4, 5, 6]), 2)
         self.assertEqual(smallest_subarray_sum(9, [1, 2, 8, 4, 3]), 1)
 
-if __name__ == "__main__":
-    unittest.main()
+# Manually create and run the test suite
+def run_tests():
+    suite = unittest.TestLoader().loadTestsFromTestCase(TestSmallestSubarraySum)
+    runner = unittest.TextTestRunner(verbosity=2)
+    result = runner.run(suite)
+    return result
+
+# Run the tests and capture the results
+test_result = run_tests()
